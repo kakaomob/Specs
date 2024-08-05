@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   }
   s.swift_version = 5.0
   s.author         = 'Kakao mobility corp.'
-  s.source           = { :http => "https://km-nexus.onkm.co.kr/repository/kakao-mobility-ios-knsdk-release/1.10.9-dev.3/KNSDK/KNSDK.xcframework.zip", :type => "zip" }
+  s.source           = { :http => "https://devrepo.kakaomobility.com/repository/kakao-mobility-ios-knsdk-release/1.10.9-dev.3/KNSDK/KNSDK.xcframework.zip", :type => "zip" }
   s.vendored_frameworks = "KNSDK.xcframework"  
   s.platform       = :ios, "15.0"
   s.framework      = 'Metal', 'MetalKit'
